@@ -2,7 +2,7 @@ terminal
 ========
 
 ### What is it
-A CMD.exe application with
+A CMD.exe application that
 - Runs in background
 - Activated / Hidden by pressing the "~" key
 
