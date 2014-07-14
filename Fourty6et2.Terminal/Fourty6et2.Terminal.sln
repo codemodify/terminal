@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fourty6et2.KeyboardHooks", "Fourty6et2.KeyboardHooks\Fourty6et2.KeyboardHooks.csproj", "{033181DE-C795-489A-AF51-7ADD9E4C8245}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fourty6et2.ThirdParty.GlobalMouseKeyHook", "Fourty6et2.ThirdParty.GlobalMouseKeyHook\Fourty6et2.ThirdParty.GlobalMouseKeyHook.csproj", "{ED84EE6F-C22A-413D-9F11-9FFDD01088E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fourty6et2.Terminal.Ui", "Fourty6et2.Terminal.Ui\Fourty6et2.Terminal.Ui.csproj", "{89E61D7A-57D2-4678-A743-C98D729E0937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fourty6et2.ThirdParty.CmdExe", "Fourty6et2.ThirdParty.CmdExe\Fourty6et2.ThirdParty.CmdExe.csproj", "{66DA140E-5003-418C-B306-3D0CB5608DBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fourty6et2.ThirdParty.CustomTabControl", "Fourty6et2.ThirdParty.CustomTabControl\Fourty6et2.ThirdParty.CustomTabControl.csproj", "{88B053DF-1DC4-4B03-B852-814191DC941A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{033181DE-C795-489A-AF51-7ADD9E4C8245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{033181DE-C795-489A-AF51-7ADD9E4C8245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{033181DE-C795-489A-AF51-7ADD9E4C8245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{033181DE-C795-489A-AF51-7ADD9E4C8245}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED84EE6F-C22A-413D-9F11-9FFDD01088E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED84EE6F-C22A-413D-9F11-9FFDD01088E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED84EE6F-C22A-413D-9F11-9FFDD01088E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED84EE6F-C22A-413D-9F11-9FFDD01088E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89E61D7A-57D2-4678-A743-C98D729E0937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89E61D7A-57D2-4678-A743-C98D729E0937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89E61D7A-57D2-4678-A743-C98D729E0937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89E61D7A-57D2-4678-A743-C98D729E0937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66DA140E-5003-418C-B306-3D0CB5608DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66DA140E-5003-418C-B306-3D0CB5608DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66DA140E-5003-418C-B306-3D0CB5608DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66DA140E-5003-418C-B306-3D0CB5608DBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88B053DF-1DC4-4B03-B852-814191DC941A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88B053DF-1DC4-4B03-B852-814191DC941A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88B053DF-1DC4-4B03-B852-814191DC941A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88B053DF-1DC4-4B03-B852-814191DC941A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ED84EE6F-C22A-413D-9F11-9FFDD01088E3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Fourty6et2.ThirdParty.GlobalMouseKeyHook</RootNamespace>
+    <AssemblyName>Fourty6et2.ThirdParty.GlobalMouseKeyHook</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseHookListener.cs" />
+    <Compile Include="Controls\HookType.cs" />
+    <Compile Include="Controls\MouseKeyEventProvider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HotKeys\HotKeyArgs.cs" />
+    <Compile Include="HotKeys\HotKeySet.cs" />
+    <Compile Include="HotKeys\HotKeySetCollection.cs" />
+    <Compile Include="HotKeys\HotKeySetsListener.cs" />
+    <Compile Include="KeyboardHookListener.cs" />
+    <Compile Include="KeyboardState.cs" />
+    <Compile Include="KeyEventArgsExt.cs" />
+    <Compile Include="KeyPressEventArgsExt.cs" />
+    <Compile Include="MouseEventExtArgs.cs" />
+    <Compile Include="MouseHookListener.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WinApi\AppHooker.cs" />
+    <Compile Include="WinApi\GlobalHooker.cs" />
+    <Compile Include="WinApi\HookCallback.cs" />
+    <Compile Include="WinApi\Hooker.cs" />
+    <Compile Include="WinApi\HookNativeMethods.cs" />
+    <Compile Include="WinApi\KeyboardHookStruct.cs" />
+    <Compile Include="WinApi\KeyboardNativeMethods.cs" />
+    <Compile Include="WinApi\Messages.cs" />
+    <Compile Include="WinApi\MouseNativeMethods.cs" />
+    <Compile Include="WinApi\MouseStructures.cs" />
+    <Compile Include="WinApi\Point.cs" />
+    <Compile Include="WinApi\ThreadNativeMethods.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HotKeys\ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Credits.text" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
